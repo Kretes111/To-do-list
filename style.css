@@ -1,0 +1,97 @@
+* {
+  font-family: 'Dosis', sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  border-radius: 10px;
+  width: 480px;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 60px;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+#form input {
+  width: 400px;
+  padding: 5px;
+  margin: 0;
+  border: 2px solid #31b0d5;
+  background-color:#ebebeb;
+}
+
+#form button{
+  margin: 0;
+  height: 29px;
+  background-color: #31b0d5;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+
+#form button:hover {
+  transform: scale(1.1);
+}
+
+.delete{
+  margin: 0;
+  height: 29px;
+  background-color: #31b0d5;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  float: right;
+  transition: all 0.1s;
+}
+
+.delete:hover {
+  transform: scale(1.1);
+  background-color: #dc3545;
+}
+
+ul {
+  margin: 10px auto;
+  border-top: 2px solid salmon;
+  width: 463px;
+  text-align: left;
+  list-style: none;
+  padding: 5px;
+  line-height: 30px;
+}
+
+li {
+  border-bottom: 1px solid salmon;
+  transition: all .3s;
+}
+
+.quit {
+  line-height: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.quit:hover {
+  transform:scale(1.5);
+  color: #dc3545;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #31b0d5;
+  transform: scale(1.03);
+  opacity: 0.4;
+}
